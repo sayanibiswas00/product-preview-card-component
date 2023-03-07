@@ -1,0 +1,79 @@
+body{
+    background-color: #f7e6f6;
+}
+
+.product-card{
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+.card-body{
+    margin: 10px 15px 0;
+}
+.title{
+    font-family: 'Judson', serif;
+    font-weight: bolder;
+    line-height: 100%;
+}
+
+.card-tag{
+    margin: 5px 0 10px;
+    font-family: 'Anonymous Pro', monospace;
+    color: grey;
+}
+
+.card-text{
+    margin: 12px 0;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 13px;
+    color: grey;
+}
+
+.new-price{
+    display: inline;
+    font-family: 'Abril Fatface', cursive;
+    color: #2e8c57;
+}
+
+.old-price{
+    display: inline;
+    margin: 0 15px;
+    font-size: small;
+    vertical-align: 30%;
+    color: gray;
+    text-decoration: line-through;
+}
+
+.add-to-cart-button{
+    margin: 10px 0 0;
+    color: white;
+    background-color: #2e8c57;
+    width: 100%;
+}
+
+.add-to-cart-button:hover{
+    color: white;
+    background-color: #08542d;
+}
+
+button i{
+    display: inline;
+    margin: 0 10px 0;
+}
+
+button p{
+    display: inline;
+    font-size: 90%;
+    font-weight:bold;
+}
+
+.attribution{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
