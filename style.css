@@ -77,3 +77,16 @@ button p{
     width: 100%;
     text-align: center;
 }
+
+#mobile{
+    display: none;
+}
+
+@media(max-width: 550px){
+    #desktop{
+    	display: none;
+    }
+    #mobile{
+        display: block;
+    }
+}
