@@ -21,7 +21,7 @@ body{
     line-height: 100%;
 }
 
-#display-img{
+.display-img{
     height: 100%;
     display: block;
 }
