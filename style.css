@@ -10,9 +10,11 @@ body{
     margin-right: -50%;
     transform: translate(-50%, -50%) 
 }
+
 .card-body{
     margin: 10px 15px 0;
 }
+
 .title{
     font-family: 'Judson', serif;
     font-weight: bolder;
