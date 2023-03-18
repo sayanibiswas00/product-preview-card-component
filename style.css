@@ -19,6 +19,11 @@ body{
     line-height: 100%;
 }
 
+.display-img{
+    height: 100%;
+    display: block;
+}
+
 .card-tag{
     margin: 5px 0 10px;
     font-family: 'Anonymous Pro', monospace;
